@@ -25,14 +25,14 @@ __4. Note the external IP address.__
 
 __5. SSH into the newly created VM and "Authorize".__
 
-__6. Replace both occurrences of "ABC.DEF.GHI.JKL" with the external IP address of your VM and then run this command:__
+__6. Replace both occurrences of "123.456.78.90" with the external IP address of your VM and then run this command:__
 
 ```
 sudo docker run --rm -it \
     -p 17171:17171 \
     -p 17179:17179 \
-    --add-host ABC.DEF.GHI.JKL.nip.io:0.0.0.0 \
-    -e "XMAGE_DOCKER_SERVER_ADDRESS=ABC.DEF.GHI.JKL.nip.io" \
+    --add-host 123.456.78.90.nip.io:0.0.0.0 \
+    -e "XMAGE_DOCKER_SERVER_ADDRESS=123.456.78.90.nip.io" \
     goesta/xmage-beta
 ```
 
