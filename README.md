@@ -37,7 +37,7 @@ sudo docker run --rm -it \
 ```
 
 __7. Connect to server from an XMage client__
-* Server name: `ABC.DEF.GHI.JKL`
+* Server name: `123.456.78.90` (replace with external IP address from your VM)
 * Port: `17171`
 
 __8. Make sure to "delete" (not just "stop") the VM after use to avoid paying for storage while the server is offline.__
