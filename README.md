@@ -1,3 +1,5 @@
+# XMage server on Google Cloud
+
 Based on the [DigitalOcean Tutorial](https://github.com/goesta/docker-xmage-alpine/wiki/DigitalOcean-Tutorial) by [goesta](https://github.com/goesta), I created this little guide on how to run an [XMage](http://xmage.today/) server on Google Cloud.
 
 __1. Login to your Google Cloud account or sign up with free credits:__ 
